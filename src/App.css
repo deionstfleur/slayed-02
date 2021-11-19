@@ -79,6 +79,11 @@ img {
   padding-top: 23px;
 }
 
+#dt {
+  padding-top: 160px;
+}
+
+
 
 .bg {
   background-color: #3567F5;
@@ -136,6 +141,10 @@ img {
  @media screen and (max-width: 767px) {
    #snapchat {
 background-color: #FAFA33;
+   }
+
+   #dt {
+     padding-top: 60px;
    }
 
    /* #navbar {

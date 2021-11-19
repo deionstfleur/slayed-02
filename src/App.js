@@ -171,7 +171,7 @@ function App() {
         </div>
   </div>
 <div id="socials-nav" class="container bg-grey" style={{marginBottom: 50, marginTop: 20,}}>
-  <h1 class="text-center follow"> Stay in Touch ! </h1>
+  <h1 class="text-center follow"> Stay in Touch</h1>
   <div class="row mb-5" id="section-2-fix">
   
     <a target="_blank" style={{textDecoration: 'none'}} href="https://instagram.com/slayedbysarah?utm_medium=copy_link">
