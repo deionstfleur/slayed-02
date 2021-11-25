@@ -5,6 +5,7 @@ import Instagram from './assets/ig.png'
 import logo1 from './assets/logo-instagram.svg'
 import home from './assets/home-outline.svg'
 import Landing from './Landing';
+import Hair from './assets/hair-dryer-dryer-svgrepo-com.svg'
 import './App.css';
 
 
@@ -23,7 +24,9 @@ function App() {
 
 
     <nav id="navbar" class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a id="logo-fix" class="navbar-brand" href="#">+</a>
+        <a id="logo-fix" class="navbar-brand"  href="#">
+          +
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -77,40 +80,93 @@ function App() {
         </div>
   </div>
 <div id="socials-nav" class="container bg-grey" style={{marginBottom: 50, marginTop: 20,}}>
-  <h1 class="text-center follow"> Stay in Touch</h1>
-  <div class="row mb-5" id="section-2-fix">
   
-    <a target="_blank" style={{textDecoration: 'none'}} href="https://instagram.com/slayedbysarah?utm_medium=copy_link">
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              {/* <strong class="d-inline-block mb-2 text-success">Design</strong> */}
-              <h3 class="mb-0">
-                <a style={{textDecoration: 'none'}} target="_blank"  class="text-dark" href="https://instagram.com/slayedbysarah?utm_medium=copy_link">Instagram</a>
-              </h3>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [100x250]" src="https://parentzone.org.uk/sites/default/files/Instagram%20logo.jpg" data-holder-rendered="true" style={{height: 250}} />
+   <div id="square-container" class="row">
+
+     <div class="col-md-6">
+
+       <div  class="row">
+
+          <div class="col-6  square">
+            <h2> lorem ipsum </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget felis sit amet nunc auctor elementum molestie in magna. Donec sed quam a turpis congue ornare.</p>
+
           </div>
-        </div>
-      
-    </a>
 
 
-      <div class="col-md-6">
-    <a style={{textDecoration: 'none'}} target="_blank" href="https://twitter.com/"> 
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div id="twitter" class="card-body d-flex flex-column align-items-start">
-              {/* <strong class="d-inline-block mb-2 text-success">Design</strong> */}
-              <h3 class="mb-0">
-                <a style={{textDecoration: 'none'}} target="_blank" class="text-dark" href="https://twitter.com/">Twitter</a>
-              </h3>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]" src="https://govima.com/wp-content/uploads/2021/08/Twitter.jpg" data-holder-rendered="true" style={{width: 250, height: 250}} />
+          <div class="col-6 square">
+          <h2> lorem ipsum </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget felis sit amet nunc auctor elementum molestie in magna. Donec sed quam a turpis congue ornare.</p>
           </div>
-    </a>
+       </div>
+
+       <div id="second-row" class="row">
+
+        <div class="col-6 square">
+        <h2> lorem ipsum </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget felis sit amet nunc auctor elementum molestie in magna. Donec sed quam a turpis congue ornare.</p>
         </div>
 
+
+          <div class="col-6 square">
+          <h2> lorem ipsum </h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget felis sit amet nunc auctor elementum molestie in magna. Donec sed quam a turpis congue ornare.</p>
+          </div>
       </div>
+
+
+
+     </div>
+
+     <div class="col-md-6">
+     <h1 class="text-center follow"> Terms and Conditions</h1>
+     </div>
+
+   </div>
+
+   {/* <div id="mobile">
+     
+     <div class="container">
+
+       <div class="row">
+     
+     <div class="col-12">
+     <h1>Terms and Conditions</h1>
+     </div>
+<div id="scroll"  class="row">
+     <div class="col-3 square">
+        <h2> lorem ipsum </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget felis sit amet nunc auctor elementum molestie in magna. Donec sed quam a turpis congue ornare.</p>
+     </div>
+
+
+     <div class="col-3 square">
+        <h2> lorem ipsum </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget felis sit amet nunc auctor elementum molestie in magna. Donec sed quam a turpis congue ornare.</p>
+     </div>
+
+     <div class="col-3 square">
+        <h2> lorem ipsum </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget felis sit amet nunc auctor elementum molestie in magna. Donec sed quam a turpis congue ornare.</p>
+     </div>
+
+     <div class="col-3 square">
+        <h2> lorem ipsum </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget felis sit amet nunc auctor elementum molestie in magna. Donec sed quam a turpis congue ornare.</p>
+     </div>
+</div>
+
+
+       </div>
+
+     </div>
+
+     <div>
+
+
+     </div>
+
+   </div> */}
 
 </div>
 
